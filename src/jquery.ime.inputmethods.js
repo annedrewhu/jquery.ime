@@ -818,6 +818,10 @@
 			name: 'ଟ୍ରାନ୍ସଲିଟରେସନ',
 			source: 'rules/or/or-transliteration.js'
 		},
+		'osa-transliteration': {
+			name: 'Osage transliteration',
+			source: 'rules/osa/osa-transliteration.js'
+		},
 		'pa-inscript': {
 			name: 'ਇਨਸਕ੍ਰਿਪਟ',
 			source: 'rules/pa/pa-inscript.js'
@@ -1701,6 +1705,10 @@
 		or: {
 			autonym: 'ଓଡ଼ିଆ',
 			inputmethods: [ 'or-phonetic', 'or-transliteration', 'or-inscript', 'or-inscript2', 'or-lekhani', 'or-OdiScript' ]
+		},
+		osa: {
+			autonym: '𐓏𐒰𐓓𐒰𐓓𐒷 𐒻𐒷',
+			inputmethods: [ 'osa-transliteration' ]
 		},
 		pa: {
 			autonym: 'ਪੰਜਾਬੀ',
